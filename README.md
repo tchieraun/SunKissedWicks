@@ -17,8 +17,3 @@ Welcome to *SunKissedWicks* — a beautiful, handcrafted scented candle brand ma
 •⁠  ⁠JavaScript (optional)
 •⁠  ⁠GitHub Pages for deployment
 
-## 📸 Sample Products
-•⁠  ⁠blueberry-rush.jpg
-•⁠  ⁠bubble-mint.jpg
-•⁠  ⁠strawberry-latte.jpg
-•⁠  ⁠sweet-berry.jpg
