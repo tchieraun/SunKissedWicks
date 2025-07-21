@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SunKissed Wicks</title>
+  <!-- Stylish Heading Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #f6d365, #fda085);
+      color: #5c4328;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-width: 150px;
+    }
+    h1 {
+      margin: 10px 0;
+      font-family: 'Playfair Display', serif;
+      font-size: 42px;
+      font-weight: bold;
+    }
+    header p {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      font-weight: 500;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    form {
+      margin-top: 10px;
+    }
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin: 5px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background: #d4a373;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 40px;
+      background: #fff3e6;
+      font-size: 20px;
+    }
+    footer a {
+      color: #5c4328;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Logo">
+    <h1>SunKissed Wicks</h1>
+    <p>
+      Welcome to SunKissed Wicks! We craft premium, hand-poured scented candles made from eco-friendly SOY wax. Unique designs, beautiful fragrances, perfect for gifting and creating a warm atmosphere. Each candle is made with love and care to elevate every space with a touch of elegance and serenity.
+    </p>
+  </header>
+  <section class="products">
+    <!-- Sweet Treat Candle -->
+    <div class="product">
+      <img src="sweet-treat.jpg" alt="Sweet Treat Candle">
+      <h3>Sweet Treat Candle</h3>
+      <p>Small (120 mL) – ₹250<br>Large (240 mL) – ₹310</p>
+      <form action="https://formspree.io/f/xpwrvpjy" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <select name="size">
+          <option value="Small">Small - ₹250</option>
+          <option value="Large">Large - ₹310</option>
+        </select>
+        <input type="text" name="address" placeholder="Shipping Address" required>
+        <input type="hidden" name="product" value="Sweet Treat Candle">
+        <button type="submit">Order Now</button>
+      </form>
+    </div>
+    <!-- BlueBerry Rush -->
+    <div class="product">
+      <img src="blueberry-rush.jpg" alt="BlueBerry Rush">
+      <h3>BlueBerry Rush</h3>
+      <p>Small (120 mL) – ₹250<br>Large (240 mL) – ₹310</p>
+      <form action="https://formspree.io/f/xpwrvpjy" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <select name="size">
+          <option value="Small">Small - ₹250</option>
+          <option value="Large">Large - ₹310</option>
+        </select>
+        <input type="text" name="address" placeholder="Shipping Address" required>
+        <input type="hidden" name="product" value="BlueBerry Rush">
+        <button type="submit">Order Now</button>
+      </form>
+    </div>
+    <!-- Bubble Candle -->
+    <div class="product">
+      <img src="bubble-candle.jpg" alt="Bubble Candle">
+      <h3>Bubble Candle</h3>
+      <p>Large – ₹150</p>
+      <form action="https://formspree.io/f/xpwrvpjy" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="address" placeholder="Shipping Address" required>
+        <input type="hidden" name="product" value="Bubble Candle">
+        <input type="hidden" name="size" value="Large">
+        <button type="submit">Order Now</button>
+      </form>
+    </div>
+    <!-- Strawberry Latte -->
+    <div class="product">
+      <img src="strawberry-latte.jpg" alt="Strawberry Latte">
+      <h3>Strawberry Latte</h3>
+      <p>Small (120 mL) – ₹250<br>Large (240 mL) – ₹310</p>
+      <form action="https://formspree.io/f/xpwrvpjy" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <select name="size">
+          <option value="Small">Small - ₹250</option>
+          <option value="Large">Large - ₹310</option>
+        </select>
+        <input type="text" name="address" placeholder="Shipping Address" required>
+        <input type="hidden" name="product" value="Strawberry Latte">
+        <button type="submit">Order Now</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    🎯 Follow us on <a href="https://www.instagram.com/sunkissedwicks">Instagram</a>
+  </footer>
+</body>
+</html>
